@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SpaceXplore Startup</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #000022, #001144);
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #080b2a;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #00d8ff;
+      box-shadow: 0 2px 8px rgba(0, 216, 255, 0.4);
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #00d8ff;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      color: #cceeff;
+    }
+    button {
+      background-color: #00d8ff;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #001122;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #00a8cc;
+      color: #e0e0e0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #080b2a;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    SpaceXplore
+  </header>
+  <main>
+    <h1>Exploring Beyond the Stars</h1>
+    <p>At SpaceXplore, we're pioneering affordable space travel, satellite launches, and interplanetary exploration to make the universe accessible for all.</p>
+    <button id="joinBtn">Join Our Mission</button>
+  </main>
+  <footer>
+    &copy; 2025 SpaceXplore. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('joinBtn').addEventListener('click', () => {
+      alert('Thanks for your interest! Stay tuned for launch updates.');
+    });
+  </script>
+</body>
+</html>
